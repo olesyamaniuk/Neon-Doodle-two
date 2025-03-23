@@ -27,34 +27,13 @@ function toggleAnswer(element) {
 
   if (answer.style.display === "none" || answer.style.display === "") {
     answer.style.display = "block";
-    buttonImg.src = "/img/faq/arrow.png";
+    buttonImg.src = "/img/Component 1.png";
   } else {
     answer.style.display = "none";
-    buttonImg.src = "/img/faq/icon.png";
+    buttonImg.src = "/img/Component 1.png";
   }
 }
 
-// document.addEventListener("DOMContentLoaded", function () {
-//   const popup = document.getElementById("cookie-popup");
-//   const acceptButton = document.getElementById("cookies");
-//   const declineButton = document.getElementById("decline-cookies");
-//   const closeButton = document.getElementById("close-popup");
-
-//   if (!localStorage.getItem("cookiesAccepted")) {
-//     popup.style.display = "block";
-//   }
-//   acceptButton.onclick = function () {
-//     localStorage.setItem("cookiesAccepted", "true");
-//     popup.style.display = "none";
-//   };
-//   declineButton.onclick = function () {
-//     localStorage.setItem("cookiesAccepted", "false");
-//     popup.style.display = "none";
-//   };
-//   closeButton.onclick = function () {
-//     popup.style.display = "none";
-//   };
-// });
 document.addEventListener("DOMContentLoaded", function () {
   const popup = document.getElementById("cookie-popup");
   const acceptButton = document.getElementById("accept-cookies");
